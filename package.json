@@ -1,0 +1,20 @@
+{
+  "name": "note-taker",
+  "version": "1.0.0",
+  "description": "Accessible, organized notes at the click of a button. Write, save and delete notes all in one app!   Give it a try:",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaylanw/Note-Taker.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jaylanw/Note-Taker/issues"
+  },
+  "homepage": "https://github.com/jaylanw/Note-Taker#readme"
+}
