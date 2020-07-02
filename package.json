@@ -16,5 +16,7 @@
   "bugs": {
     "url": "https://github.com/jaylanw/Note-Taker/issues"
   },
-  "homepage": "https://github.com/jaylanw/Note-Taker#readme"
+  "homepage": "https://github.com/jaylanw/Note-Taker#readme",
+  "dependencies": {},
+  "devDependencies": {}
 }

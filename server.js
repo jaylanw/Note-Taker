@@ -1,7 +1,7 @@
 var express = require("express");
 var app = express();
 
-var PORT = process.env.PORT || 8080;
+var PORT = process.env.PORT || 6060;
 
 
 app.use(express.static('public'));
@@ -15,5 +15,3 @@ require("./routes/htmlRoutes")(app);
 app.listen(PORT, function() {
     console.log(" Server listening on: " + PORT);
 });
-
-
