@@ -19,19 +19,23 @@ module.exports = function (app) {
                 console.log("Your Note Was Saved!");
                 return res.json(noteList);
             });
-        })
-    });
-
-    app.delete("/api/notes/:id", function (req, res) {
-        fs.readFile("db/db.json", (err, data) => {
-            let noteList = JSON.parse(data);
-            noteList.splice(req.params.id, 1);
-            fs.writeFile("db/db.json", JSON.stringify(noteList, '\t'), err => {
-                if (err) throw err;
-                console.log("Your note was deleted!");
-            });
         });
     });
-    
 
+app.delete("/api/notes/:id", function (req, res) {
+        let deleteNote = req.params.id;
+    fs.readFile("db/db.json", (err, data) => {
+        if (err) throw err;
+            let noteList = JSON.parse(data);
+              for (let i = 0; i < noteList.length; i++) {
+                if (noteList[i].id === deleteNote) {
+                    noteList.splice(i, 1);
+    fs.writeFile("db/db.json", JSON.stringify(noteList), function (err) {
+        if (err) throw err;
+        console.log("Your note was deleted!");
+            return res.json(noteList);
+                    });
+                }};
+        });
+    });
 };
