@@ -5,7 +5,7 @@
   
   
  ## Deployed App 
-https://drive.google.com/file/d/1wnioBJbwC9g8M2tCU_zIHPU26G9pXXno/view
+
   
 ## Usage
 Click the deployed link and click the get started button! Once you click the button, you'll be able to begin taking notes like a pro.
