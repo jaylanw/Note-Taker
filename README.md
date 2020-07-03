@@ -5,7 +5,7 @@
   
   
  ## Deployed App 
-![alt text](https://github.com/jaylanw/Weekly-Weather/blob/master/Assets/Screen%20Shot%202020-05-26%20at%2011.14.12%20PM-1.png)
+![alt text](https://github.com/jaylanw/Note-Taker/blob/master/public/assets/Screen%20Shot%202020-07-02%20at%2010.07.28%20PM.png)
   
 ## Usage
 Click the deployed link and click the get started button! Once you click the button, you'll be able to begin taking notes like a pro.
