@@ -1,13 +1,19 @@
 # Note-Taker
   Accessible, organized notes at the click of a button. Write, save and delete notes all in one app!
   Give it a try:
+  https://jaylannotes.herokuapp.com/
   
   
 ## Usage
 Click the deployed link and give click the get started button! Once you click the button, you'll be able to begin taking notes like a pro.
+
+## Installation 
+- Clone the repo
+- node server.js
       
 ## Contributors
   Jaylan Wienckowski
+ 
   
   
 ## Questions   [![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)](https://GitHub.com/Naereen/ama)
