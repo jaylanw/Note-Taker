@@ -17,6 +17,8 @@
     "url": "https://github.com/jaylanw/Note-Taker/issues"
   },
   "homepage": "https://github.com/jaylanw/Note-Taker#readme",
-  "dependencies": {},
+  "dependencies": {
+    "express": "^4.16.4"
+  },
   "devDependencies": {}
 }
