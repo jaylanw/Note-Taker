@@ -4,6 +4,9 @@
   https://jaylannotes.herokuapp.com/
   
   
+ ## Deployed App 
+
+  
 ## Usage
 Click the deployed link and click the get started button! Once you click the button, you'll be able to begin taking notes like a pro.
 
