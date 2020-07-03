@@ -12,7 +12,7 @@ Click the deployed link and click the get started button! Once you click the but
 
 ## Installation 
 - Clone the repo
-- Run node server.js
+- Run npm install
       
 ## Contributors
   Jaylan Wienckowski
